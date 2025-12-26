@@ -96,7 +96,7 @@ def ask_account_status(chat_id):
     try:
         bot.send_photo(
             chat_id,
-            "AgACAgUAAxkBAAMZaU1pAuTN06GIa8io6JALwM33V3IAAqMNaxvcyWhWkP8QbtjGmXUBAAMCAAN5AAM2BA",
+            "AgACAgUAAxkBAAMLaU4hPt1IQAocMD9eZ2S4Lq2bBioAArILaxu0c3FWfx7PHAEF9KwBAAMCAAN5AAM2BA",
             caption=text,
             reply_markup=markup
         )
@@ -141,7 +141,7 @@ def callback_handler(call):
         try:
             bot.send_photo(
                 chat_id,
-                "AgACAgUAAxkBAAMbaU1pwn4xF66fqQMYuUFcG62Rr6IAAqQNaxvcyWhWMu0TBXYgatUBAAMCAAN5AAM2BA",
+                "AgACAgUAAxkBAAMNaU4hcBWaiSorWsAIR3trbXRcVNwAArMLaxu0c3FWET-YirRSSM0BAAMCAAN5AAM2BA",
                 caption=text,
                 reply_markup=markup
             )
@@ -165,7 +165,7 @@ def ask_for_username(chat_id):
     try:
         bot.send_photo(
             chat_id,
-            "AgACAgUAAxkBAAMfaU1p72JgG8kbtE8XhdakAAEi_Nw0AAKnDWsb3MloVm-htifVgTWdAQADAgADeQADNgQ",
+            "AgACAgUAAxkBAAMPaU4hhk-x1WRUlXoO1it7nxQPOyYAArQLaxu0c3FWgg0sJOHGIygBAAMCAAN5AAM2BA",
             caption=text,
             parse_mode="Markdown"
         )
@@ -246,7 +246,7 @@ def handle_text(message):
         try:
             bot.send_photo(
                 chat_id,
-                "AgACAgUAAxkBAAMdaU1p2EF1BAQTJz06A9DRQHFSAAHLAAKmDWsb3MloVuZGYlbmHBU-AQADAgADeQADNgQ",
+                "AgACAgUAAxkBAAMRaU4hlJgAAd39hDqFrCelr0k2vNWPAAK1C2sbtHNxVgABCqpC2ndbCgEAAwIAA3kAAzYE",
                 caption=reply_text,
                 parse_mode="Markdown"
             )
