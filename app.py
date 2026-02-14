@@ -13,8 +13,8 @@ from flask import Flask, request
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "0"))
 
-REG_LINK = "https://u888h8.com?f=5059859"
-WEBAPP_LINK = "https://u888h8.com?f=5059859"  # hiện chưa dùng, để sẵn
+REG_LINK = "https://u888h8.com?f=5769791"
+WEBAPP_LINK = "https://u888h8.com?f=5769791"  # hiện chưa dùng, để sẵn
 
 # Cấu hình giữ bot "thức"
 ENABLE_KEEP_ALIVE = os.getenv("ENABLE_KEEP_ALIVE", "false").lower() == "true"
@@ -96,7 +96,7 @@ def ask_account_status(chat_id):
     try:
         bot.send_photo(
             chat_id,
-            "AgACAgUAAxkBAAMLaU4hPt1IQAocMD9eZ2S4Lq2bBioAArILaxu0c3FWfx7PHAEF9KwBAAMCAAN5AAM2BA",
+            "AgACAgUAAxkBAAMMaZAasJKF0gubmHw4dVqk6YW4adAAAjsNaxtvcIFURVK1-UE5cTYBAAMCAAN5AAM6BA",
             caption=text,
             reply_markup=markup
         )
@@ -141,7 +141,7 @@ def callback_handler(call):
         try:
             bot.send_photo(
                 chat_id,
-                "AgACAgUAAxkBAAMNaU4hcBWaiSorWsAIR3trbXRcVNwAArMLaxu0c3FWET-YirRSSM0BAAMCAAN5AAM2BA",
+                "AgACAgUAAxkBAAMKaZAarFhyMgpy8V8q4LZi9BPoMvMAAjoNaxtvcIFUdfWCiGC2EhcBAAMCAAN5AAM6BA",
                 caption=text,
                 reply_markup=markup
             )
@@ -165,7 +165,7 @@ def ask_for_username(chat_id):
     try:
         bot.send_photo(
             chat_id,
-            "AgACAgUAAxkBAAMPaU4hhk-x1WRUlXoO1it7nxQPOyYAArQLaxu0c3FWgg0sJOHGIygBAAMCAAN5AAM2BA",
+            "AgACAgUAAxkBAAMYaZAbdmpZYtDf1vdpi8NHFdIieRgAAkINaxtvcIFUnbPga-5GhkEBAAMCAAN5AAM6BA",
             caption=text,
             parse_mode="Markdown"
         )
@@ -246,7 +246,7 @@ def handle_text(message):
         try:
             bot.send_photo(
                 chat_id,
-                "AgACAgUAAxkBAAMRaU4hlJgAAd39hDqFrCelr0k2vNWPAAK1C2sbtHNxVgABCqpC2ndbCgEAAwIAA3kAAzYE",
+                "AgACAgUAAxkBAAMaaZAbeteNEY5D7MTx20LsrlzFvbkAAkMNaxtvcIFU60gU2ke3sI0BAAMCAAN5AAM6BA",
                 caption=reply_text,
                 parse_mode="Markdown"
             )
